@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  @media screen and (max-width: 414px) {
+    .container{
+        text-align:justify;
+        margin-top:3.5rem;
+        display: grid;
+        margin: auto;
+    
+    
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+        position: fixed;
+        width: 00%;
+    
+    }
+    
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+*{
+    font-family: "Roboto Slab", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: aqua;
+}
+.header {
+    font-size: large;
+    background-color: brown;
+    border-bottom: 0.5rem solid palevioletred;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr ;
+}
+
+.sign{
+    color: greenyellow ;
+    text-decoration: none;
+    padding: 1.2rem;
+    font-weight: bold;
+}
+
+.sign:hover{
+    color: blue;
+}
+.logo{
+    color:greenyellow;
+    padding: 1.5%;
+    margin: 0px;
+}
+.footer{
+    background-color: brown;
+    padding: 1.2rem;
+    position: fixed;
+    /* clear: both; */
+    color: greenyellow;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.category-column{
+    /* width: 25%;
+    float: left;
+    padding: 1.2rem; */
+
+}
+.headline-column{
+    /* width: 50%;
+    float: left;
+    padding: 1.2rem; */
+
+}
+.weather-column{
+    /* width: 25%;
+    float: left;
+    padding: 1.2rem; */
+
+}
+.heading{
+    color: brown;
+    margin: 1.2rem;
+}
+.content{
+    border: 0.1rem solid palevioletred;
+    border-radius: 0.4rem ;
+    /* padding-left: 1.2rem;
+    padding-right: 1.2rem; */
+
+    
+}
+.news-title, .category-content{
+    /* padding-top:0.6rem ;
+    padding-bottom: 0.6rem; */
+    color: brown;
+    margin: 1rem;
+}
+.category-icon{
+    font-size: 1rem;
+    margin-right: 0.2rem;
+    color: rgb(81, 0, 255);
+}
+.news-title:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration:underline;
+
+}
+
+.weather-degree{
+    text-align: center;
+    font-size: 6rem;
+    color: blue;
+}
+
+.container{
+    text-align:justify;
+    margin-top:3.5rem;
+    display: grid;
+    margin: auto;
+
+
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+
+}
+.sign{
+        clear:both;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 0.2rem solid greenyellow;
+    background-color: blanchedalmond;
+    color: brown;
+}
